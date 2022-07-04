@@ -1,0 +1,63 @@
+.file-list-container {
+    flex: 1 1 auto;
+
+    .file-list-content {
+        display: flex;
+        flex-wrap: wrap;
+
+        .file-list-title-box {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 10px 30px;
+            margin: 10px;
+            border: 1px solid rgba(229, 254, 254, 0.7);
+            cursor: pointer;
+
+            .file-icon {
+                color: rgb(246, 196, 69);
+                font-size: 80px;
+            }
+
+            .file-info {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+
+                // .input-folder-name {
+                //     text-align: center;
+                //     width: 70px;
+                //     height: 22px;
+                //     border: 0px;
+                //     background-color: transparent;
+                //     cursor: pointer;
+                // }
+
+                .file-name {
+                    display: flex;
+                }
+
+                .file-name:focus {
+                    width: 80px;
+                    outline: 1px solid rgb(108, 174, 244);
+                    text-align: center;
+                    background-color: white;
+                }
+            }
+
+
+            // .input-folder-name:focus {
+            //     background-color: white;
+            //     outline: 1.5px solid rgb(108, 174, 244);
+            // }
+        }
+
+        .file-list-title-box:hover {
+            background-color: rgba(229, 254, 254, 0.7);
+            // border: 1px solid rgb(108, 174, 244);
+            border-color: rgb(108, 174, 244);
+        }
+    }
+
+
+}
